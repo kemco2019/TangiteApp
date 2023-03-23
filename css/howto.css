@@ -1,0 +1,103 @@
+/* ===================================================================
+ * # topimage
+ *
+ * ------------------------------------------------------------------- */
+ .topimage {
+    background-color: #FFFDF0;
+    padding-top: calc(2 * var(--space));
+    text-align: center;
+}
+
+.topimage img{
+    width: 80%;
+}
+
+/* ===================================================================
+ * # actab
+ *
+ * ------------------------------------------------------------------- */
+
+ .actab h4{
+    color: #D98A6A;
+}
+
+.actab{
+    width: 85%;
+    margin: 0 auto;
+}
+
+.accordion-wrap{
+    border-bottom: 1px solid gray;
+}
+
+.accordion-item{
+  width: 100%;
+  margin: 0 auto;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.accordion-header{
+  transition: ease-in-out 100ms;
+}
+
+.accordion-text{
+  width: 100%;
+  display: none;
+  padding-top: 5px;
+  padding-bottom: 20px;
+}
+
+.fas{
+  transition: ease-in-out 300ms;
+}
+
+
+.rotate-fa{
+  transform: rotate(180deg);
+}
+
+.fas{
+  float: right;
+  line-height: 35px;
+}
+
+.accordion-gold{
+  color: gray;
+}
+
+.accordion-no-bar{
+  border-bottom: 0;
+}
+
+ol.sample1{
+    counter-reset:list;
+    list-style-type:none;
+    padding: 0px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  ol.sample1 li{
+    position:relative;
+    line-height: 30px;
+    color: black;
+  }
+
+  ol.sample1 li:before{
+    counter-increment: list;
+    content: counter(list);
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 30px;
+    background: #D98A6A;
+    text-align: center;
+    color: #fff;
+    top: 15px;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }

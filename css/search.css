@@ -1,0 +1,129 @@
+
+
+/* ===================================================================
+ * # topimage
+ *
+ * ------------------------------------------------------------------- */
+ .topimage {
+    background-color: #FFFDF0;
+    padding-top: calc(1 * var(--space));
+    text-align: center;
+}
+
+.topimage img{
+    width: 80%;
+}
+
+/* ===================================================================
+ * #serch
+ *
+ * ------------------------------------------------------------------- */
+
+ .search {
+	width: 80%;
+	margin: auto;
+    z-index: 100;
+}
+
+.search input[type=number] {
+	font: 15px/24px sans-serif;
+	width: 100%;
+	border: 1px solid #1b2538;
+	padding: 3px 0 3px 1em;
+}
+
+.search p{
+    width: 100%;
+}
+
+.search i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	color: #FFFFFF;
+}
+
+#form4{
+    position:relative;
+}
+#sbox4{
+    width: 90%;
+    height:50px;
+    left:0;
+    top:0;
+    outline:0;
+    background:#FFFFFF;
+    
+}
+#sbox4::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+#sbtn4{
+    height:50px;
+    position:absolute; 
+    left:85%; 
+    top:0;
+    background:#000000;
+    color:#fff;
+    border:none;
+    margin: 0 auto;
+}
+#sbtn4 .fa-search{
+    font-size:20px;	
+    position:absolute;
+    top: 30%;
+    left:30%;	
+    margin: 0 auto;
+}
+
+a[data-stt-changelang] {
+    margin:0 7px;
+}
+a[data-stt-active] {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.search .mobile_guide{
+    background:#FFFDF0;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 0;
+}
+
+a.botton{
+    color: #000000;
+}
+
+
+
+
+/* ===================================================================
+ * # contents
+ *
+ * ------------------------------------------------------------------- */
+.pin{
+    text-align: center;
+}
+
+.form-group{
+    justify-content:center;
+}
+.col-sm-4{
+    border: 1px solid rgb(0, 0, 0); 
+    background-color: snow; 
+    width: 5em;
+    margin: 10px;
+}
+.col-sm-4 .form-control{
+    margin: 0!important;
+    font-size: 160%;
+    text-align: center;
+}

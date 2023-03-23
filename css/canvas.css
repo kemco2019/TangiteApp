@@ -1,0 +1,26 @@
+canvas {
+    background-color: #FFFDF0;
+    background-image: url("../images/map_mita.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #999;
+    width: 100%;
+    height: 100%;
+}
+#container {
+    position: relative;
+}
+#main_img {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+}
+#loupe_canvas {
+    position: absolute;
+    z-index: 2;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+}

@@ -1,0 +1,236 @@
+/* ===================================================================
+ * # topimage
+ *
+ * ------------------------------------------------------------------- */
+ .topimage {
+    background-color: #FFFDF0;
+    padding-top: calc(3 * var(--space));
+    text-align: center;
+}
+
+.topimage img{
+    width: 80%;
+}
+
+/* ===================================================================
+ * #serch
+ *
+ * ------------------------------------------------------------------- */
+
+.search {
+	width: 80%;
+	margin: auto;
+    z-index: 100;
+}
+
+.search input[type=number] {
+	font: 15px/24px sans-serif;
+	width: 100%;
+	border: 1px solid #1b2538;
+	padding: 3px 0 3px 1em;
+}
+
+.search p{
+    width: 100%;
+}
+
+.search i {
+	position: absolute;
+	top: 8px;
+	left: 0;
+	color: #FFFFFF;
+}
+
+#form4{
+    position:relative;
+}
+#sbox4{
+    width: 90%;
+    height:50px;
+    left:0;
+    top:0;
+    outline:0;
+    background:#FFFFFF;
+    margin-bottom: -20px !important;
+}
+
+#sbox4::placeholder{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+}
+#sbtn4{
+    height:50px;
+    position:absolute;
+    left:85%;
+    top:0;
+    background:#000000;
+    color:#fff;
+    border:none;
+    margin: 0 auto;
+}
+#sbtn4 .fa-search{
+    font-size:20px;
+    position:absolute;
+    top: 30%;
+    left:30%;
+    margin: 0 auto;
+}
+
+a[data-stt-changelang] {
+    margin:0 7px;
+}
+a[data-stt-active] {
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.search .mobile_guide{
+    background:#FFFDF0;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 0;
+}
+
+a.botton{
+    color: #000000;
+}
+
+
+/* ===================================================================
+ * # pickup
+ *
+ * ------------------------------------------------------------------- */
+
+.pickup h4{
+    padding-left: 5%;
+    color: #D98A6A;
+}
+
+.pickup .horizontal-list {
+    display: flex;
+    overflow-x: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+.pickup .item {
+    padding-right: 20px;
+    width: 80%;
+    min-width: 80%;
+    height: auto;
+    background:#FFFDF0;
+    text-align: center;
+  }
+
+.horizontal-list .item .workimage{
+    height: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
+.horizontal-list a{
+    display:block;
+    height: auto;
+}
+
+
+
+.horizontal-list .item img {
+    background-color:#FFFDF0;
+    height: 300px;
+    object-fit: cover;
+}
+
+.horizontal-list .item h5{
+    text-align: left;
+    color: #333333;
+    margin: 0;
+    padding-left: 10px;
+    margin: 5px 0;
+    font-size: 20px !important;
+}
+
+.horizontal-list .item h6{
+    text-align: left;
+    color: #D98A6A;
+    margin: 0;
+    padding-left: 10px;
+}
+
+.horizontal-list .item p{
+    text-align: left;
+    color: #333333;
+    font-size: 14px;
+    padding-left: 10px;
+    display: -webkit-box;
+    overflow: hidden;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
+    margin-bottom:40px;
+}
+
+/* ===================================================================
+ * # top_map
+ *
+ * ------------------------------------------------------------------- */
+.top_map{
+    text-align: center;
+}
+
+.top_map img{
+    width: 90%;
+}
+
+.top_map p{
+    width: 90%;
+    display: inline-block;
+    text-align: left;
+}
+
+/* ===================================================================
+ * # info
+ *
+ * ------------------------------------------------------------------- */
+ .info h4{
+    padding-left: 5%;
+    color: #D98A6A;
+}
+
+table{
+    width: 90%;
+    border-spacing: 0;
+    margin: auto;
+  }
+
+  table th{
+    border-bottom: solid 2px #ddd;
+    padding: 10px 0;
+  }
+
+  table td{
+    border-bottom: solid 2px #ddd;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+.kaikan_info{
+    background:#FFFDF0;
+    text-align: center;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    padding: 10px 0;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+a.botton{
+    color: #000000;
+}

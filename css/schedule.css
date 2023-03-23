@@ -1,0 +1,37 @@
+/* ===================================================================
+ * # topimage
+ *
+ * ------------------------------------------------------------------- */
+ .topimage {
+    background-color: #FFFDF0;
+    padding-top: calc(3 * var(--space));
+    text-align: center;
+}
+
+.topimage img{
+    width: 80%;
+}
+
+.venue{
+    border-top: solid thin;
+    width: 80%;
+    margin: 0 auto;
+}
+h3{
+    padding-left: 5%;
+    color: #D98A6A;
+}
+.venue h4{
+    margin-top: 5%;
+}
+
+.venue .part p{
+    margin: 0 ;
+}
+.venue .caution{
+    padding-left: 5%;
+    color: #D98A6A;
+}
+.venue img{
+    margin: 0 auto;
+}
