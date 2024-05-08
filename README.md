@@ -1,2 +1,2 @@
 # TangiteApp
-URL: https://studio.kemco.keio.ac.jp/tangiteapp/
+https://studio.kemco.keio.ac.jp/tangiteapp/
